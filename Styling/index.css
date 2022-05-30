@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-#linkBtn {
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: rgb(124, 124, 124);
+    color: #dedede;
     text-decoration: none;
-    text-align: center;
-    display: inline;
-    list-style-type: none; padding: 0px; margin: 0px
+    background-color: #31363b;
 }
