@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 #linkBtn {
-    text-align: center;
     font-weight: 500;
     font-size: 16px;
     color: rgb(124, 124, 124);
     text-decoration: none;
+    text-align: center;
+    display: inline;
+    list-style-type: none; padding: 0px; margin: 0px
 }
