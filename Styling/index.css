@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,200&display=swap');
 
 * {
+    text-align: center;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #424242;
 }
 
-li, a, button {
+li, a, button { 
     font-family: "Prompt", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 240;
+    font-size: 22px;
     color: #dedede;
     text-decoration: none;
     background-color: #31363b;
+    transition: all .5s ease-in-out
 }
 
 header a button {
@@ -41,13 +43,14 @@ header a button {
     background-color: #1a1b1c;
 }
 
-.nav-bar li a:hover {
-    color: #2f2f2f;
+a:hover, button:hover {
+    color: #18c12f;
+    text-decoration: underline;
 }
 
 header {
     justify-content: space-between;
     align-items: center;
-    padding: 20px 1.2%;
+    padding: 20px 1.255%;
     background-color: #272a32;
 }
